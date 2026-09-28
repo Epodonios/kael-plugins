@@ -1,0 +1,28 @@
+{
+  "schema": "kael-plugins/v1",
+  "updatedAt": "2026-09-14T14:30:00Z",
+  "plugins": [
+    {
+      "id": "unit-converter",
+      "name": "Unit Converter",
+      "version": "1.0.0",
+      "category": "converters",
+      "description": "Convert length, mass and temperature with a terminal-styled UI that follows your active KAEL theme. The official minimal example plugin.",
+      "minAppVersion": "1.0.0",
+      "downloadUrl": "https://raw.githubusercontent.com/Epodonios/kael-plugins/main/plugins/unit-converter/unit-converter.zip",
+      "sha256": "79c4d6efd3f24fd7fce4c77bdf374c280b9f693e370ea6eb0ff1bdbd511d6f84",
+      "permissions": ["app.info"]
+    },
+    {
+      "id": "creative-dev-utilities",
+      "name": "Creative & Dev Utilities",
+      "version": "1.0.0",
+      "category": "creative-dev",
+      "description": "Seven creative & dev tools in one panel with an internal tab strip: sketchboard canvas (pen/shapes/text/eraser/undo/pan-zoom/PNG), flowchart builder (SVG+PNG export), local heuristic font identifier, real sharp-backed image compressor, honest image/pdf converter with an explicit unsupported list, code-to-image renderer, and an npm package size checker — the only tool that touches the network (keyless bundlephobia/npm lookups, disclosed in-panel).",
+      "minAppVersion": "1.0.7",
+      "downloadUrl": "https://raw.githubusercontent.com/Epodonios/kael-plugins/main/plugins/creative-dev-utilities/creative-dev-utilities.zip",
+      "sha256": "727ce20848e84ed1c940e4ed4f4e01d37af8bfe1a26f42aee11c05d50ac7f9d1",
+      "permissions": ["fs.dialog", "fs.write", "net.fetch"]
+    }
+  ]
+}

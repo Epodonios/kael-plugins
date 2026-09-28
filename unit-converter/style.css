@@ -1,0 +1,74 @@
+/* unit-converter — optional stylesheet. Everything here is a bonus on top of
+ * the shared theme variables; plain var(--*) usage keeps it theme-reactive. */
+
+.uc-root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  font-family: inherit;
+}
+
+.uc-head {
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: var(--accent);
+}
+
+.uc-select,
+.uc-input {
+  background: var(--panel-2);
+  color: var(--text);
+  border: 1px solid var(--line-strong);
+  padding: 6px 8px;
+  font: inherit;
+  font-size: 12px;
+  outline: none;
+}
+
+.uc-select:focus,
+.uc-input:focus {
+  border-color: var(--accent);
+}
+
+.uc-bar {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.uc-bar .uc-input {
+  flex: 1 1 90px;
+  min-width: 90px;
+}
+
+.uc-swap {
+  background: transparent;
+  border: 1px solid var(--line-strong);
+  color: var(--accent);
+  padding: 6px 10px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.uc-swap:hover {
+  border-color: var(--accent);
+}
+
+.uc-result {
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+  font-size: 14px;
+  min-height: 20px;
+}
+
+.uc-foot {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.08em;
+}

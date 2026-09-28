@@ -1,0 +1,10 @@
+{
+  "id": "creative-dev-utilities",
+  "name": "Creative & Dev Utilities",
+  "version": "1.0.0",
+  "category": "creative-dev",
+  "description": "Seven creative & dev tools in one panel: sketchboard canvas, flowchart builder (SVG export), local heuristic font identifier, real sharp-backed image compressor, honest image/pdf converter, code-to-image renderer, and an npm package size checker. The size checker is the only tool that touches the network (bundlephobia / npm registry, keyless); everything else runs fully local.",
+  "minAppVersion": "1.0.7",
+  "entry": "main.js",
+  "permissions": ["fs.dialog", "fs.write", "net.fetch"]
+}

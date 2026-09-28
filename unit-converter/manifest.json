@@ -1,0 +1,10 @@
+{
+  "id": "unit-converter",
+  "name": "Unit Converter",
+  "version": "1.0.0",
+  "category": "converters",
+  "description": "Convert length, mass and temperature with a terminal-styled UI that follows your active KAEL theme. The official minimal example plugin.",
+  "minAppVersion": "1.0.0",
+  "entry": "main.js",
+  "permissions": ["app.info"]
+}
